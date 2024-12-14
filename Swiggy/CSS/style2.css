@@ -1,0 +1,99 @@
+/* Reset and Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background for a soft aesthetic */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px; /* Add padding for spacing inside the form */
+    border-radius: 8px; /* Smooth rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+    width: 400px; /* Fixed width for a compact layout */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Add spacing below the heading */
+    color: #444444; /* Neutral dark gray color */
+    font-size: 24px; /* Increase font size for emphasis */
+}
+
+/* Label Styling */
+label {
+    display: block; /* Ensure labels take full width */
+    margin: 15px 0 5px; /* Spacing above and below the label */
+    font-weight: bold; /* Emphasize the label text */
+    color: #555555; /* Slightly lighter gray for text */
+    font-size: 14px; /* Standard font size for clarity */
+}
+
+/* Input, Select, Textarea, and Button Styling */
+input, select, textarea, button {
+    width: 100%; /* Full width elements for alignment */
+    padding: 10px; /* Add padding inside fields */
+    margin: 5px 0 20px; /* Space between elements */
+    border: 1px solid #dddddd; /* Light gray border for subtle distinction */
+    border-radius: 4px; /* Smooth rounded corners */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    font-size: 14px; /* Standard text size for input */
+}
+
+/* Focus Effect */
+input:focus, select:focus, textarea:focus {
+    border-color: #ff5722; /* Orange border for focus */
+    outline: none; /* Remove default browser outline */
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.5); /* Subtle orange glow */
+}
+
+/* Button Styling */
+button {
+    background-color: #ff5722; /* Bright orange for attention */
+    color: #ffffff; /* White text for contrast */
+    font-size: 16px; /* Slightly larger text for buttons */
+    font-weight: bold; /* Emphasize button text */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    padding: 12px; /* Extra padding for a prominent button */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #e64a19; /* Slightly darker orange for hover effect */
+}
+
+/* Additional Styling for Textarea */
+textarea {
+    resize: none; /* Prevent resizing of the feedback box */
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%; /* Adjust width for small screens */
+        padding: 20px; /* Reduce padding for smaller devices */
+    }
+
+    h1 {
+        font-size: 20px; /* Adjust font size for heading */
+    }
+
+    label, input, select, textarea, button {
+        font-size: 12px; /* Adjust font size for inputs and labels */
+    }
+
+    button {
+        padding: 10px; /* Adjust button size */
+    }
+}
+

@@ -1,0 +1,70 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #444;
+    font-family: 'Comic sans MS', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0 20px;
+    font-family: 'Comic sans MS', cursive;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff5722;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: #ff5722;
+    border-radius: 4px;
+}
+
+/* Logo */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100px;
+}
+
+/* Headings */
+h1, h2 {
+    border-bottom: 2px solid #ff5722;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Section Styling */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
